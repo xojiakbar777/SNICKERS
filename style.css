@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    height: 162px;
+    background-color: #410C00;
+}
+
+#navbar__top{
+    margin: 0 auto;
+    width: 80%;
+    height: 42px;
+}
+
+#navbar__bottom{
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#title__left{
+    font-size: 13px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#title__left a{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: 30px;
+}
+
+#bottom__link a{
+    color: white;
+    text-decoration: none;
+    margin-left:40px ;
+    font-weight: bold;
+}
+
+#bottom__link i{
+    color: darkgoldenrod;
+}
+
+#bottom__link{
+    font-size: 15px;
+    display: flex;
+}
+
+#down{
+    z-index: 5;
+    width:200px ;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    display: none;
+}
+
+#down a{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: normal;
+    width: 200px;
+    height: 30px;
+    color: rgb(75, 55, 4);
+    background-color: white;
+}
+
+#down a:hover{
+    color: blue;
+}
+
+#drop:hover #down{
+    display: flex;
+}
+
+#banner__video{
+    width: 94.90%;
+    height: 495px;
+    position: relative;
+}
+
+#video{
+    width: 105.4%;
+    transform: scaleY(0.6);
+    margin-top: -155px;
+}
+
+#vid__text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+#line__text{
+    color: white;
+    width: 800px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 180px;
+
+}
+
+#line__text p h1{
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(0, 0, 150);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+}
+
+#banner__img{
+    margin-top: -50px;
+    background-color: #e5ac49;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+#card1{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imglar{
+    position: relative;
+    animation-name: photo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes photo {
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 100px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+#card2{
+    width: 450px;
+    height: 240px;
+    color: white;
+}
+
+#card2 p h1{
+    font-weight: bold;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#uch__rasm{ 
+    width: 100%;
+    height: 700px;
+}
+
+#text h1{
+    color: #410C00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    margin-top: 50px;
+    width:50% ;
+    height: 100px;
+    font-weight: bold;
+}
+
+
+#rasm__kattasi{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 500px;
+}
+
+#text__rasm{
+    display: flex;
+    justify-content: center;
+}
+
+#rasm__katta{
+    display: flex;
+    justify-content: center;
+}
+
+#snickers__orginal{
+    width: 290px;
+    height: 450px;
+}
+
+#rasm1 img{
+    transition: 1s;
+    width: 290px;
+    height: 290px;
+}
+
+#text1:hover{
+    color: rgb(0, 0, 148);
+}
+
+button:hover{
+    transition: 1s;
+    background-color: white;
+    color: rgb(0, 0, 148);
+}
+
+#text1{
+    color: #410C00;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    width: 290px;
+    height: 50px;
+}
+
+#tugma1{
+    width: 180px;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+button{
+    font-weight: bolder;
+    transition: 1s;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 94);
+}
+
+#photo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px ;
+    background-image: url("https://lhcdn.mars.com/adaptivemedia/rendition/id_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e/name_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e.jpg");
+}
+
+#pop__rasm{
+    width: 100%;
+    height: 700px;
+}
+
+#photo{
+    display: flex;
+    align-items: center;
+}
+
+#yozuv{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    width: 900px;
+    height: 300px;
+}
+
+#tug1{
+    font-weight: bold;
+    transition: 1s;
+    width: 150px;
+    height: 40px;
+    color: rgb(9, 0, 134);
+    background-color: rgb(255, 255, 255);
+}
+
+
+#pop__rasm1 img{
+    width: 250px;
+    height: 250px;
+}
+
+#pop__text:hover{
+    transition: 1s;
+    background-color:rgb(0, 0, 139) ;
+}
+
+#pop__text{
+    margin-left: 60px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 20px;
+    background-color: #410C00;
+    color: white;
+    width: 300px;
+    height: 500px;
+}
+
+#tug1:hover{
+    transition: 1s;
+    background-color: rgb(10, 0, 155);
+    color: rgb(255, 255, 255);
+}
+
+#text__pop{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 250px;
+    height: 70px;
+}
+
+#bir:hover{
+    transition: 1s;
+    color:rgb(0, 0, 139) ;
+    background-color: white;
+}
+
+#ikki{
+    margin-top: 20px;
+    font-weight: bold;
+    background-color:rgb(0, 0, 139) ;
+}
+
+#ikki:hover{
+    transition: 1s;
+    color:rgb(0, 0, 139) ;
+    background-color: white;
+}
+
+#rasm1 img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#bir{
+    font-weight: bold;
+    transition: 1s;
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 139) ;
+}
+
+#snickers{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    background-image: url("https://lhcdn.mars.com/adaptivemedia/rendition/id_abb4b2f9448a7eaeb07bb6718db3c0f827448607/name_abb4b2f9448a7eaeb07bb6718db3c0f827448607.jpg");
+    width:100% ;
+    height: 550px;
+    background-size: cover;
+}
+
+#texts h1{
+    font-size: 38px;
+}
+
+#texts{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+}
+
+#texts i{
+    font-size: 100px;
+}
+
+#rasm{
+    width: 1349px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://www.snickers.com/cdn-cgi/image/width=1440,height=580,f=auto,quality=90/sites/g/files/fnmzdf616/files/2023-06/SNK_Hi_Protein_Desktop_2880x1160.png");
+}
+
+#karusel{
+    text-align: center;
+    width: 100%;
+    height: 620px;
+}
+
+#textlar{
+    color: #410C00;
+    width: 400px;
+    height: 150px;
+}
+
+#chiziq{
+    font-size: 100px;
+}
+
+#chiziqcha{
+    background-color: #9b1c00;
+    width: 100px;
+    height: 15px;
+}
+
+ #karusel1{
+    display: flex;
+    justify-content: center;
+} 
+
+#textlar1{
+    display: flex;
+    justify-content: center;
+}
+
+#karusel2{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: blue rgb(82, 82, 255);
+    width: 1200px;
+    height: 300px;
+}
+
+#rasmlar{
+    display: flex;
+    align-items: center;
+}
+
+#rasmlar img{
+    width: 215px;
+    height: 210px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#end{
+    width: 100%;
+    height: 640px;
+}
+
+#end1{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    height: 155px;
+}
+
+#end__orqasi{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color:#e5ac49 ;
+    width: 100%;
+    height: 165px;
+}
+
+#end__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 155px;
+}
+
+#end__text{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 40px;
+}
+
+#follow i{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+#end__text a{
+    margin-left: 40px;
+    color: #410C00;
+    text-decoration: none;
+}
+
+
+#only__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 473px;
+    width: 100%;
+    background-color: #410C00;
+}
+
+#follow{
+    color: white;
+    width: 335px;
+    height: 145px;
+}
+
+ul li{
+    margin-top: 15px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#qator1{
+    display: flex;
+    width: 1000px;
+    height: 145px;
+}
+
+#qator{
+    display: flex;
+    color: white;
+    width: 670px;
+    height: 145px;
+}
+
+li img{
+    width: 30px;
+}
+
+#ul1{
+    width:200px ;
+    height:145px ;
+}
+
+#ul2{
+    width:200px ;
+    height:145px ;
+}
+
+#ul3{
+    width:200px ;
+    height:145px ;
+}
+
+#select{
+    width: 335px;
+    height: 100px;
+}
+
+#select__button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#select h3{
+    color: white;
+}
+
+#select__button a{
+    text-decoration: none;
+    color: #410C00;
+}
+
+#down{
+    border-radius: 10px;
+    z-index: 5;
+    width:200px ;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    display: none;
+}
+
+#text__qator2{
+    width: 740px;
+    height: 100px;
+    color: white;
+}
+
+#qator2{
+    display: flex;
+}
+
+#text__qator2 p{
+    font-size: 13px;
+}
+
+#qator3{
+    color: white;
+    width: 1015px;
+    height: 102px;
+}
+
+#end__button{
+    font-weight: bolder;
+    background-color: #410C00;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 55px;
+    width: 150px;
+    transition: 1s;
+}
+
+#end__button:hover{
+    transition: 1s;
+    background-color: white;
+}
+
